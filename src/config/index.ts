@@ -3,7 +3,7 @@ export interface IConfig {
 }
 
 export const config: IConfig = {
-  port: parseInt(process.env.NODE_PORT, 10) || 3005,
+  port: parseInt(process.env.NODE_PORT, 10) || 3006,
 };
 
 export { db as mysql } from './data-source-mysql';
